@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="neon_blue">#00E5FF</color>
+    <color name="neon_blue_dark">#00B8D4</color>
+    <color name="electric_blue">#2979FF</color>
+    <color name="pure_black">#000000</color>
+    <color name="surface_black">#0A0A0A</color>
+    <color name="card_black">#141414</color>
+    <color name="white">#FFFFFF</color>
+    <color name="glow_overlay">#3300E5FF</color>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="الرئيسية" />
+    <item
+        android:id="@+id/navigation_browse"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="تصفح" />
+    <item
+        android:id="@+id/navigation_shorts"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="شورتس" />
+    <item
+        android:id="@+id/navigation_favorites"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="المفضلة" />
+    <item
+        android:id="@+id/navigation_library"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="المكتبة" />
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="الإعدادات" />
+</menu>

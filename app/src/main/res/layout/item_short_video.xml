@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pure_black">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/shortPlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:resize_mode="fill"
+        app:use_controller="false" />
+
+    <!-- أزرار جانبية: إعجاب، مفضلة، مشاركة -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/btnLike"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="إعجاب"
+            app:tint="@color/neon_blue"
+            android:src="@android:drawable/btn_star_big_off" />
+
+        <ImageButton
+            android:id="@+id/btnShare"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="مشاركة"
+            app:tint="@color/neon_blue"
+            android:src="@android:drawable/ic_menu_share" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvShortTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="16dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+</FrameLayout>
